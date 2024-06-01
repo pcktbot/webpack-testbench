@@ -1,0 +1,8 @@
+$testvar: 10px;
+.test {
+  color: red;
+  padding: $testvar;
+  &:hover {
+    color: blue;
+  }
+}
